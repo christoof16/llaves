@@ -1,0 +1,59 @@
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #333;
+  font-family: sans-serif;
+}
+
+.llave-img {
+  width: 300px;
+}
+
+h2,h3{
+    margin: 0%;
+}
+
+h3{
+    color: #777;
+}
+
+p b{
+    color: #0d0;
+}
+
+.flex-item {
+  flex-grow: 1;
+  margin: 20px;
+  max-width: 300px;
+  border: solid 1px #333;
+  padding: 0 20px;
+}
+
+.flex-item:hover{
+    border: solid 1px #0d0;
+    box-shadow: 0px 0px 13px #0f0;
+}
+
+/* body{
+    overflow-x: ;
+} */
+
+.flex-item:focus{
+    border: solid 1px #0d0;
+    box-shadow: 0px 0px 13px #0f0;
+}
+
+form{
+    text-align: center;
+    padding: 50px;
+}
+
+input[type="submit"]{
+    background: #0d0;
+    color: #fff;
+    border: none;
+    padding: 12px 36px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
